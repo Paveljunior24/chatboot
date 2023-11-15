@@ -1,0 +1,46 @@
+{"intents": [
+      {"tag": "eHealth_Consultation",
+        "patterns": ["eHealth", "healthcare", "consultation", "medical advice"],
+        "examples": [
+          "I need a virtual consultation with a doctor.",
+          "Can you connect me with a healthcare professional?",
+          "How can I get medical advice online?",
+          "I have a health question, can you help?",
+          "What eHealth services are available?",
+          "I'm looking for telemedicine options.",
+          "Is there a way to consult a physician remotely?",
+          "Tell me about eHealth solutions."
+        ],
+        "responses": "Certainly, you can access a range of eHealth services to address your healthcare needs. Here are some options:\n\n1. Virtual Consultations: You can schedule a virtual consultation with a qualified doctor through various telemedicine platforms.\n2. Online Medical Advice: Many healthcare providers offer online platforms where you can seek medical advice and guidance from licensed professionals.\n3. Telemedicine: Telemedicine services allow you to consult with healthcare professionals remotely, which can be especially useful for non-emergency medical issues.\n4. Healthcare Apps: There are mobile apps that provide medical advice, symptom checkers, and access to health information.\n5. Health Websites: Numerous websites offer health information and resources to help answer your questions.\n6. Remote Physician Consultations: You can connect with a physician remotely for diagnosis, treatment recommendations, and prescription services.\n7. EHealth Solutions: EHealth encompasses a wide range of services, including telehealth, digital health records, wearable health devices, and more.\n\nPlease let me know if you would like more information about any specific eHealth service or have any other questions related to healthcare."
+      },
+      {"tag": "GreetWithName",
+        "patterns": ["greet", "hello", "hi", "hey", "name", "my name is"],
+        "examples": [
+          "Hello, my name is John.",
+          "Hi, I'm Sarah.",
+          "Hey there, I'm Mike.",
+          "Hi, it's Alice speaking.",
+          "Hello, call me David.",
+          "Hey, my name is Emily."
+        ],
+        "responses": [
+          "Hello, ! Nice to meet you.",
+          "Hi, ! How can I assist you today?",
+          "Hey , how can I help you?",
+          "Hello , it's great to have you here.",
+          "Hi there, ! What can I do for you?"
+        ]
+      },
+      {
+        "tag": "symptom_check",
+        "patterns": [
+          "I have a headache",
+          "My throat hurts",
+          "I'm feeling dizzy",
+          "I have a fever"
+        ],
+        "responses": "It's important to take care of your health. Based on your symptoms, I recommend the following:\n\n1. Rest and drink plenty of fluids.\n2. Take over-the-counter pain relievers if needed.\n3. If your symptoms persist or worsen, consult a healthcare professional.\n4. You can also provide more details about your symptoms, and I can offer more specific advice."
+      }
+    ]
+  }
+  
